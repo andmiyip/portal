@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+#clock{
+	color:#F0F;
+	float: right;
+}
+.boshmenyu {
+opacity: 0.8;
+background-color:  	#F5F5F5;
+height:100px;
+	
+}
+.boshtugmalar {
+height:100px;
+width:100px;
+float: right;
+background-color:  	#F5F5F5;
+
+}
+.boshtugmalar2 {
+height:100px;
+width:200px;
+float: right;
+background-color:  	#F5F5F5;
+
+}
+.pusk {
+opacity: 0.8;
+
+width:150px;
+float: left;
+background-color:  	#F5F5F5;
+}
+.pusktugma {
+margin:10px 0px 0px 0px;
+height:50px;
+width:150px;
+float: left;
+background-color:  	#FFFAF0;
+border: 1px solid black;
+}
+.desctop {
+margin:10px 0px 20px 10px;
+opacity: 0.8;
+float: left;
+}
+.footer {
+opacity: 0.8;
+background-color:  	#F5F5F5;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
+.jadval {
+  margin-left: auto ;
+  margin-right: auto ;
+		width:700px;
+}
+
+.spa {
+	margin:0px 0px 10px 10px;
+	border:hiden;
+	TEXT-ALIGN: auto;
+	FONT-STYLE: normal;
+	font-size:17;
+	width:200px;
+	padding- RIGHT: 50px;
+	DISPLAY: inline-block;
+	PADDING- TOP: 3px;
+	
+}
+
+/** %[Object] Switch */ 
+.switch {
+  color: #6f839a;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.5em;
+  border-radius: 3px;
+  padding: .125em .5em;
+  display: inline-block;
+  background-color: #3e4956;
+  -webkit-transition: .15s ease;
+  -moz-transition: .15s ease;
+  -ms-transition: .15s ease;
+  -o-transition: .15s ease;
+  transition: .15s ease;
+}
+
+input[type="radio"]:checked + .switch {
+  color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+input[type="radio"]:checked + .switch--on {
+  background-color: #7eab55;
+}
+
+input[type="radio"]:checked + .switch--off {
+  background-color: #dd4a38;
+}
+input[type="radio"]:checked + .switch--no {
+  background-color: orange;
+}  
+p.main {
+    text-align: justify;
+}
+/*------------------------------------*/ 
